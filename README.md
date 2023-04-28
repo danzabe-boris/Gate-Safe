@@ -15,4 +15,7 @@
 
 The project's IDE is IntelliJ IDEA 2021.2.1, for people not use to folder structuration :-)
 
-#Application not end
+# Application not end
+
+### credit
+This application was developed by Boris DANZABE MBOBE
