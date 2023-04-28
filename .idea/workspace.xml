@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GateSafe:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3584dfc6-c77f-47f7-9bc5-cf5645c843b8" name="Changes" comment="Create aacount">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gate/gatesafe/delete/DeleteCommandServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gate/gatesafe/update/ValidateCommandServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/current_command.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/finalize_command.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/catalog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/command.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/current_command.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/finalize_command.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/logout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/script.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/sidebar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/topbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/view-customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/responsible_client/view-product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/partner/command-status.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/partner/command-status.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/partner/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/partner/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/partner/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/partner/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/partner/script.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/partner/script.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/partner/view-customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/partner/view-customer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/redirect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/redirect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/responsible-client/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/admin/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/admin/sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/command-status.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/command-status.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/logout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/logout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/script.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/partner/script.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/redirect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/redirect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatesafe-1.0-SNAPSHOT/responsible-client/home.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2GB7A1fuBrJg6m0u3rbO3sx2lW7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/admin" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER PRO\Documents\GateSafe\src\main\webapp\admin" />
+      <recent name="C:\Users\USER PRO\Documents\GateSafe\src\main\webapp\responsible-client" />
+      <recent name="C:\Users\USER PRO\Documents\GateSafe\src\main\webapp\img" />
+      <recent name="C:\Users\USER PRO\Documents\GateSafe\bd" />
+      <recent name="C:\Users\USER PRO\Documents\GateSafe\src\main\java\com\gate\gatesafe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER PRO\Documents\GateSafe\src\main\webapp\partner" />
+      <recent name="D:\gatesafe\src\main\webapp\admin" />
+      <recent name="D:\gatesafe\src\main\webapp" />
+      <recent name="D:\gatesafe\src\main\webapp\img" />
+      <recent name="D:\gatesafe\src\main\resources\img" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gate.gatesafe.create" />
+      <recent name="com.gate.gatesafe.delete" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="GateSafe:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/GateSafe_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b44f8026-1388-42fc-8e8e-14b14aa27a11" />
+        <option name="JNDI_PORT" value="1090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9899" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="GateSafe:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3584dfc6-c77f-47f7-9bc5-cf5645c843b8" name="Changes" comment="" />
+      <created>1665849988380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665849988380</updated>
+      <workItem from="1665849994182" duration="4338000" />
+      <workItem from="1665857988191" duration="15711000" />
+      <workItem from="1666010192034" duration="12588000" />
+      <workItem from="1666045926112" duration="4224000" />
+      <workItem from="1666080206158" duration="650000" />
+      <workItem from="1666080871113" duration="1353000" />
+      <workItem from="1666082346663" duration="395000" />
+      <workItem from="1666082802123" duration="4315000" />
+      <workItem from="1666250730409" duration="3389000" />
+      <workItem from="1666260431694" duration="1231000" />
+      <workItem from="1666600501926" duration="9572000" />
+      <workItem from="1666619661701" duration="1296000" />
+      <workItem from="1666623224901" duration="17690000" />
+      <workItem from="1666743168628" duration="13464000" />
+      <workItem from="1666827306154" duration="1073000" />
+      <workItem from="1666855026152" duration="3017000" />
+      <workItem from="1666952808462" duration="480000" />
+      <workItem from="1666957254488" duration="1529000" />
+      <workItem from="1667032367235" duration="147000" />
+      <workItem from="1667043817166" duration="7008000" />
+      <workItem from="1667144140378" duration="11885000" />
+      <workItem from="1667204136249" duration="37772000" />
+      <workItem from="1667288306180" duration="1611000" />
+      <workItem from="1667290682724" duration="3467000" />
+      <workItem from="1667433995797" duration="19973000" />
+      <workItem from="1667673320076" duration="28223000" />
+      <workItem from="1667750772402" duration="19750000" />
+      <workItem from="1667782406850" duration="4361000" />
+      <workItem from="1667787386335" duration="7135000" />
+      <workItem from="1667801588351" duration="43311000" />
+    </task>
+    <task id="LOCAL-00001" summary="Create count">
+      <created>1666261532452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666261532452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create aacount">
+      <created>1666261641777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666261641777</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Create count" />
+    <MESSAGE value="Create aacount" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create aacount" />
+  </component>
+</project>

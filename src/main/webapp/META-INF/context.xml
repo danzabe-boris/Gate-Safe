@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+    <!-- Default set of monitored resources. If one of these changes, the    -->
+    <!-- web application will be reloaded.                                   -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <!--    <WatchedResource>WEB-INF/tomcat-web.xml</WatchedResource>-->
+    <!--    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>-->
+
+    <!-- Uncomment this to disable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="" />
+    -->
+
+    <Resource name="jdbc/webgate" auth="Container" type="javax.sql.DataSource"
+              maxActive="100" maxIdle="30" username="root" password="" driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost/webgate?autoReconnect=true"  />
+
+<!--    <Realm className="org.apache.catalina.realm.DataSourceRealm" digest="SHA-256"-->
+<!--           dataSourceName="jdbc/webgate" localDataSource="true" userTable="users" userRoleTable="roles"  userNameCol="name"-->
+<!--           userCredCol="password" roleNameCol="role" />-->
+
+    <Realm className="org.apache.catalina.realm.JAASRealm" appName="GateSafeLogin"
+           userClassNames="com.gate.gatesafe.jaas.UserPrincipal" roleClassNames="com.gate.gatesafe.jaas.RolePrincipal" />
+
+</Context>
